@@ -24,7 +24,7 @@ void setup() {
   Serial.println(F("BMP280 test"));
   lcd.print("Welcome to ");
   lcd.setCursor(0,1);
-  lcd.print("CIRCUIT DIGEST");
+  lcd.print("Krowos1 system");
   delay(1000);
   lcd.clear();
   if (!bmp.begin(0x76)) {
